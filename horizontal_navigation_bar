@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+ul{
+background:blueviolet;
+color:white;
+padding: 25px 20px 25px 20px;
+}
+li,a{
+ list-style-type: none;
+ display:inline;
+ margin: 0px;
+ padding: 100px 20px 75px 20px;
+ color:white;
+ }
+ 
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="https://www.google.com">Home</a></li>
+  <li><a href="https://www.google.com/search?rlz=1C1CHBD_enIN1063IN1063&sxsrf=AB5stBhelKN5NYpUBMZszWZU7yMpwyftGQ:1691142373972&q=flower&tbm=isch&source=lnms&sa=X&ved=2ahUKEwj78duj3MKAAxVR0jQHHU9qCpQQ0pQJegQIDhAB&biw=1536&bih=739&dpr=1.25">Flowers</a></li>
+  <li><a href="https://www.google.com/search?q=animal&tbm=isch&ved=2ahUKEwiEtf-k3MKAAxWV7DgGHYlEC6YQ2-cCegQIABAA&oq=animal&gs_lcp=CgNpbWcQAzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIHCAAQigUQQzIHCAAQigUQQzIHCAAQigUQQzoECCMQJzoICAAQgAQQsQM6DQgAEIoFELEDEIMBEEM6BQgAEIAEOggIABCxAxCDAVDRClisE2CPF2gAcAB4AIAB6wGIAdkHkgEFMS41LjGYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=6MjMZIShJ5XZ4-EPiYmtsAo&bih=739&biw=1536&rlz=1C1CHBD_enIN1063IN1063">Animals</a></li>
+  <li><a href="https://www.google.com/search?q=birds&tbm=isch&ved=2ahUKEwix_7HA3MKAAxXs7jgGHSLhAGAQ2-cCegQIABAA&oq=birds&gs_lcp=CgNpbWcQAzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIKCAAQigUQsQMQQzIICAAQgAQQsQMyCAgAEIAEELEDMgsIABCABBCxAxCDATIICAAQgAQQsQMyBwgAEIoFEEM6BAgjECc6DQgAEIoFELEDEIMBEENQzgxY9hNgohhoAHAAeACAAcABiAGjB5IBAzAuNpgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=IsnMZLHmBezd4-EPosKDgAY&bih=739&biw=1536&rlz=1C1CHBD_enIN1063IN1063">Birds</a></li>
+</ul>
+
+
+
+</body>
+</html>
+
