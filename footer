@@ -1,0 +1,121 @@
+<html>
+
+<head>
+  <style>
+   footer{
+    background-color: #bbb0fd;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
+    font-size: 16px;
+    color:#050028;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .footer-sections{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+    margin:0 auto;
+    max-width: 720px;
+    padding:16px;
+  }
+  .social-links{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+  }
+  .social-links img{
+    width:20px;
+    height :20px;
+  }
+   .footer-bottom{
+    min-height: 60px;
+    margin-top: 52px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    background-color: #bbb0fd;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .logo{
+    max-width: 160px;
+    margin-bottom: 8px;
+  }
+  h2{
+    text-align:left;
+    color:#050028;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    opacity:0.7;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  menu{
+    list-style-type: none;
+    padding: 0;
+    margin:0
+  }
+  menu li{
+    margin-bottom:16px;
+  }
+  </style>
+</head>
+
+<body>
+  
+  <footer>
+    <section class="footer-sections">
+      <section>
+        <h2 class="logo">SP Engineering</h2>
+        <span class="social-links">
+          <a>
+            <img src="instagram.png" />
+            
+          </a>
+          <a>
+            <img src="facebook.svg" />
+          </a>
+          
+        </span>
+      </section>
+      <section>
+        <menu>
+          <h2>SP Cloud</h2>
+          <li>
+            <a>Private Data Detector</a>
+          </li>
+          <li>
+            <a>Text Classification</a>
+          </li>
+          <li>
+            <a>Image Getector</a>
+          </li>
+        </menu>
+      </section>
+      <section>
+        <menu>
+          <h2>Company</h2>
+          <li>
+            <a>Blog</a>
+          </li>
+          <li>
+            <a>About Us</a>
+          </li>
+          <li>
+            <a>Contact</a>
+          </li>
+        </menu>
+      </section>
+    </section>
+    <section class="footer-bottom">
+      SP Engineering.2023 All rights reserved
+    </section>
+  </footer>
+
+</body>
+
+</html>
