@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>shape</title>
+    <style>
+        .circle{
+            clip-path: circle(50%);
+            height: 300px;
+            width:300px;
+
+        }
+        .poly{
+            clip-path: polygon(50% 0%,0% 100%,100% 100%);
+            height: 300px;
+            width:300px;
+
+        }
+        .squ{
+            clip-path:polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            height: 300px;
+            width:300px;
+
+        }
+    </style>
+</head>
+<body>
+    <img class="circle" src="image.png"/>
+    <img class="poly" src="image.png"/>
+    <img class="squ" src="image.png"/>
+</body>
+</html>
