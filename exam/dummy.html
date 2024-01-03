@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+<style>
+
+#bg{
+    height: 3500px;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right,  rgb(154, 211, 247) , rgb(241, 241, 188));
+    margin-bottom: 100px;
+}
+#bg1{
+    height: 1500px;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, white, rgb(154, 211, 247) , rgb(241, 241, 188));
+    margin-bottom: 100px;
+}
+
+
+.nav{
+    background-color: white;
+    height:80px;
+    width:100%;
+    margin: 10px;
+}
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to right, rgb(154, 211, 247) , rgb(241, 241, 188));
+  top: 0;
+  width: 40%;
+  border-radius:50px;
+  float: right;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: white;
+  border-radius:50px;
+  height:10px;
+  margin: 4px;
+}
+
+.active {
+  background-color: white;
+  border-radius:50px;
+  height:10px;
+  margin: 4px;
+
+}
+.digital{
+    color: blue;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card {
+    
+  margin-left:80px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  background-image: linear-gradient(to right,  rgb(154, 211, 247) ,white,white, rgb(241, 241, 188));
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+.bookacall{
+    border-radius:50px;
+    border:none;
+    color:white;
+    background-color: rgb(211, 126, 5);;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    height :36px;
+      
+}
+.button{
+    border-color:blue;
+    color: blue;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 8px;
+    align-items: center;
+    height:36px;
+    
+}
+.stay{
+    color: rgb(211, 126, 5);
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.call{
+    border-radius:5px;
+    border-color:white;
+    color:blue;
+    background-image: linear-gradient(to right, rgb(154, 211, 247) , rgb(241, 241, 188));
+    margin-left: 8px;
+    margin-bottom: 8px;
+    height :50px;
+    width:150px;
+}
+
+/* Float four columns side by side */
+.column {
+  margin-left: 60px;
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0  rgb(154, 211, 247);
+  padding: 16px;
+  text-align: center;
+  background-color: white;
+  border-color: rgb(154, 211, 247);
+  border-radius: 5px;
+  height:180px;
+}
+h3{
+    color: blue;
+}
+</style>
+</head>
+<body>
+<div class="nav">
+    
+    <ul>
+    <li><a  href="#home">Home</a></li>
+    <li><a class="active"href="#news">About Us</a></li>
+    <li><a href="#contact">Work</a></li>
+    <li><a href="#about">Services</a></li>
+    <li><a href="#news">Client</a></li>
+    <li><a href="#contact">Team</a></li>
+    <li><a href="#about">Contact Us</a></li>
+    </ul>
+</div>
+<div id="bg">
+    
+        
+        <div class="card">
+            <img src="C:\Users\USER\Desktop\exam\image1.png" alt="phone" style="width:350px;height:210px; float: right">
+            <div class="container">
+              <h4 class=" digital"><b>Diversifying the Designs of Digital World</b></h4> 
+              <p>Explorogent International Services Private Limited (EISPL) is one of the most famous companies in the sector of Web and Mobile Development. In the market, EISPL has a strong presence in providing quality services to its clients. </p><p>EISPL is convinced that one should diversify the offering, given the changing needs of the clients. That is why we engage in multiple projects and activities. We also possess knowledge in web development, app development, UI/UX design, as well as digital marketing.</p> 
+              <button class="bookacall"><i  class="bi bi-telephone"></i> Book a Call</button>
+              
+            </div>
+        </div>
+        <p align="center">In the realm of digital solutions, we offer expertise in</p>
+        <div align="center">
+            <button class="button">Website Development</button>
+            <button class="button" >App Development</button>
+            <button class="button">UI/UX Design</button>
+            <button class="button">Digital Marketing</button>
+            <button class="button">SEO Optimization</button>
+        </div>
+        <p align="center">showcasing our proficiency across various facets of the digital platform </p>
+        <p align="center" class="stay">Stay Ahead!<br>
+            Launch Your Next Project with Stackkaroo </p>
+        <div class="card">
+            <div id="bg1">
+                <img src="C:\Users\USER\Desktop\exam\image2.png" alt="phone" style="width:350px;height:210px; float: right">
+                <div class="container">
+                    <h4 class=" digital"><b>Our Story</b></h4> 
+                    <p>
+                        Guiding EISPL as Directors, Mr. Sourav Gupta and Mr. Chandan Mishra bring their extensive experience to the forefront as industry veterans. Our team is fueled by innovation, continually striving to exceed customer expectations.
+                   </p>
+                    <p>
+                        Operating from our registered office in Agartala Sadar, Tripura (W), our company is officially registered with the Corporate Identification Number (CIN). Our active status and an authorized share capital of Rs 10.00 lac are a source of pride.
+                    </p> 
+                    <button class="bookacall"> <i class="bi bi-currency-dollar"></i>
+                        Get Estimated Project Cost
+                    </button>
+                    <p align="center" class="stay">Why Choose Us?<br></p>
+                        <p align="center">We excel with reliability, innovation and customer-centric approach for our quality products.<br>Our dedicated team ensures that the solutions provided are dependable and long-term</p>
+                    <div align="center">
+                        <button class="call"><i class="bi bi-person-circle"></i>
+                             User-Centric Approach
+                        </button>
+                        <button class="call"><i class="bi bi-people"></i> 
+                            customer Satisfaction
+                        </button>
+                        <button class="call"><i class="bi bi-person-check"></i> 
+                            Integrating Feedback
+                        </button><br>
+                        <button class="call"><i class="bi bi-file-earmark-x-fill"></i> 
+                            High Quality Product
+                        </button>
+                        <button class="call"><i class="bi bi-clock-history"></i> 
+                            On Time Product Delivery
+                        </button>
+                    </div>
+                    
+                    <p align="center" class="stay">Stackkaroo’s Digital Services<br></p>
+                    <p align="center">We excel with reliability, innovation and customer-centric approach for our quality products.<br>Our dedicated team ensures that the solutions provided are dependable and long-term</p>
+
+                    <div class="row" align="center">
+                        <div class="column">
+                          <div class="card1">
+                            <img src="C:\Users\USER\Desktop\exam\image5.png" alt="phone" style="width:50px;height:50px; float: left">
+                            <h3>Website Development</h3>
+                            <p>We specialize in responsive website development, ensuring optimal performance across various devices.</p>
+                            <img src="C:\Users\USER\Desktop\exam\image4.png" alt="phone" style="width:50px;height:50px; float: left">
+                            
+                          </div>
+                        </div>
+                        <div class="column">
+                            <div class="card1">
+                              <img src="C:\Users\USER\Desktop\exam\image5.png" alt="phone" style="width:50px;height:50px; float: left">
+                              <h3>App Development</h3>
+                              <p>We specialize in creating superior apps for diverse sectors such as e-commerce, education, and transportation.</p>
+                              <img src="C:\Users\USER\Desktop\exam\image4.png" alt="phone" style="width:50px;height:50px; float: left">
+                              
+                            </div>
+                          </div>
+                          <div class="column">
+                            <div class="card1">
+                              <img src="C:\Users\USER\Desktop\exam\image5.png" alt="phone" style="width:50px;height:50px; float: left">
+                              <h3>Software Development</h3>
+                              <p> We specialize in tailored solutions ensuring business growth and efficiency by providing superior software.</p>
+                              <img src="C:\Users\USER\Desktop\exam\image4.png" alt="phone" style="width:50px;height:50px; float: left">
+                              
+                            </div>
+                          </div>
+                        
+                       
+                      </div>
+                      <div class="row" align="center">
+                        <div class="column">
+                            <div class="card1">
+                              <img src="C:\Users\USER\Desktop\exam\image5.png" alt="phone" style="width:50px;height:50px; float: left">
+                              <h3>UI/UX Design</h3>
+                              <p> We specialize in creating exemplary designs prioritizing user-friendly concepts and aesthetically interfaces.</p>
+                              <img src="C:\Users\USER\Desktop\exam\image4.png" alt="phone" style="width:50px;height:50px; float: left">
+                              
+                            </div>
+                          </div>
+                      
+                          <div class="column">
+                            <div class="card1">
+                              <img src="C:\Users\USER\Desktop\exam\image5.png" alt="phone" style="width:50px;height:50px; float: left">
+                              <h3>Digital Marketing</h3>
+                              <p>We specialize in tailored digital marketing solutions and ensure effective online marketing strategies.</p>
+                              <img src="C:\Users\USER\Desktop\exam\image4.png" alt="phone" style="width:50px;height:50px; float: left">
+                              
+                            </div>
+                          </div>
+                        
+                          <div class="column">
+                            <div class="card1">
+                              <img src="C:\Users\USER\Desktop\exam\image5.png" alt="phone" style="width:50px;height:50px; float: left">
+                              <h3>SEO Optimization</h3>
+                              <p>We ensure optimal website traffic by  factors such as user experience,and monitoring target audience.</p>
+                              <img src="C:\Users\USER\Desktop\exam\image4.png" alt="phone" style="width:50px;height:50px; float: left">
+                              
+                            </div>
+                          </div>
+                        
+                        </div>
+                      
+                   
+                </div>
+            </div>
+        </div>
+        
+</div>
+
+</body>
+</html>
